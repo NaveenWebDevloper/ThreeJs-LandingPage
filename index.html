@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>threejs-project</title>
+  <link rel="stylesheet" href="./src/style.css">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <div class="main w-full min-h-screen bg-black">
+    <div class="canvas-container w-full h-screen relative overflow-hidden">
+      <nav class="w-full flex items-center justify-between z-10 fixed top-0 ">
+        <img class="w-54 mix-blend-lighten" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="">
+        <div class="nav-right flex gap-10 not-lg:hidden text-white">
+          <a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#faq">FAQ</a>
+        </div>
+      </nav>
+       
+      <div class="canvas-wrapper relative w-full h-full flex items-center justify-center">
+        <canvas id="canvas" class="z-[1]"></canvas>
+      <img class="absolute top-1/2 left-1/2 transform z-[2] -translate-x-1/2 -translate-y-1/2 mix-blend-lighten saturation-[120] contrast-[3.0]" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="">
+      </div>
+    </div>
+    <div class="w-full h-[150vh]
+     bg-red-400"></div>
+  </div>
+</body>
+<script type="module" src="./src/main.js"></script>
+</html>
